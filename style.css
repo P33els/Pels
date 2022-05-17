@@ -1,0 +1,105 @@
+html, body {
+    background-color: #666666;
+    background-image: url('file:///C:/Users/peera/Downloads/%E2%80%94Pngtree%E2%80%94urban%20night%20scene_1198415.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+
+
+.P33 {
+    position: fixed;
+    left: 600px;
+    top: 150px;
+    width: 40%;
+    animation-name: box-jumping;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-jumping {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.contact {
+    position: fixed;
+    top: 567px;
+    left: 930px;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.box {
+    background-color: skyblue;
+    position: fixed;
+    top: 590px;
+    left: 921px;
+    padding: 30px;
+    width: 70px;
+    border-radius: 25px;
+}
+
+.discord {
+    position: fixed;
+    top: 675px;
+    left: 810px;
+    width: 100;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.facebook {
+    position: fixed;
+    top: 683px;
+    left: 945px;
+    width: 4.3%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.ig {
+    position: fixed;
+    top: 683px;
+    left: 1065px;
+    width: 4.3%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.discord:hover {
+    transform: scale(1.2, 1.2);
+
+}
+
+.facebook:hover {
+    transform: scale(1.2, 1.2);
+
+}
+
+.ig:hover {
+    transform: scale(1.2, 1.2);
+
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+}
